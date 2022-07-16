@@ -276,11 +276,11 @@ export default function GameMain(){
         crossL.sort();
         ovalL.sort();
         console.log(ovalL,crossL)
-        const checkArr = [["1", "5", "9"], ["1", "2", "3"], ["1", "4", "7"], ["3", "5", "7"], ["3", "6", "9"], ["7", "8", "9"],["2","5","8"]];
+        const checkArr = [["4","5","6"],["1", "5", "9"], ["1", "2", "3"], ["1", "4", "7"], ["3", "5", "7"], ["3", "6", "9"], ["7", "8", "9"],["2","5","8"]];
         //console.log(crossL)
         let r = 0;
         let q = 0;
-        for (let i = 0; i < 7; i++) {
+        for (let i = 0; i < 8; i++) {
             for (let j = 0; j < 3; j++) {
                 // console.log(checkArr[i][j])
                 if (crossL.indexOf(checkArr[i][j]) >= 0) {

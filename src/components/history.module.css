@@ -1,0 +1,33 @@
+.hisViewBut{
+    background-color: yellowgreen;
+    position: relative;
+    width: 270px;
+    height: 60px;
+    font-size: 29px;
+    color: white;
+    font-family: cursive;
+    border: 0px solid;
+    margin-top: -1px;
+    border-radius: 15px;
+}
+.hisButton{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    width: 268px;
+    height: 35px;
+    font-size: 28px;
+    background-color: crimson;
+    color: navajowhite;
+    border: 0px solid;
+    border-radius: 19px;
+    font-family: cursive;
+}
+.historyView{
+    position: absolute;
+    top: 68px;
+    left: 20px;
+    width: 270px;
+    background-color: transparent;
+
+}

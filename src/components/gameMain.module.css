@@ -1,0 +1,53 @@
+.box1{
+
+    /* position: absolute;
+    top: 40px;
+    left: 20px; */
+    width: 501px;
+    height: 499px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    
+    background-color: red;
+    
+}
+
+.mainLayout{
+    width: 167px;
+    height: 167px;
+    background-color: white;
+    border: 1px solid darkslategrey;
+    margin-top: -2px;
+    background-size: cover;
+}
+
+.startButton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    width: 138px;
+    height: 40px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+    border: 0px solid;
+    border-radius: 36px;
+}
+
+.winName{
+   
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    /* height: 49px; */
+    background-color: transparent;
+    font-size: 70px;
+    color: white;
+    font-family: cursive
+}
+
+
+
